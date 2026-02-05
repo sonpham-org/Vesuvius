@@ -1,0 +1,26 @@
+{
+  "id": "sonphamorg/vesuvius-lb549-line-tracing",
+  "title": "vesuvius-lb549-line-tracing",
+  "code_file": "vesuvius-lb549-line-tracing.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "dataset_sources": [
+    "tonylica/vsdetection-packages-offline-installer-only"
+  ],
+  "model_sources": [
+    "ipythonx/vsd-model"
+  ],
+  "keywords": [
+    "vesuvius",
+    "surface-detection",
+    "3d-segmentation",
+    "topology"
+  ]
+}

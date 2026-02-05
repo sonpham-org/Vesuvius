@@ -1,0 +1,32 @@
+# Vesuvius Challenge - Surface Detection
+# Default Training Configuration
+
+# Data
+data_dir: ./data
+train_csv: ./data/train.csv
+
+# Model
+model: unet  # Options: unet, unetr, swinunetr, attention_unet
+in_channels: 1
+out_channels: 3  # background, foreground, ignore
+
+# Training
+epochs: 100
+batch_size: 2
+lr: 0.0001
+weight_decay: 0.00001
+patch_size: [160, 160, 160]
+num_patches: 4  # Patches per volume per epoch
+
+# Loss
+loss: topology  # Options: dice, combo, cldice, topology
+
+# Optimization
+scheduler: cosine  # Options: cosine, step, none
+warmup_epochs: 5
+amp: true  # Automatic mixed precision
+
+# Misc
+num_workers: 4
+seed: 42
+output_dir: ./outputs

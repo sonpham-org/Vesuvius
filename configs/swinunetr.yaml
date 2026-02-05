@@ -1,0 +1,32 @@
+# Vesuvius Challenge - Surface Detection
+# SwinUNETR Configuration (Transformer-based)
+
+# Data
+data_dir: ./data
+train_csv: ./data/train.csv
+
+# Model - SwinUNETR has shown strong performance on medical imaging
+model: swinunetr
+in_channels: 1
+out_channels: 3
+
+# Training - SwinUNETR needs slightly different hyperparameters
+epochs: 150
+batch_size: 1  # Smaller due to larger model
+lr: 0.00005  # Lower LR for transformers
+weight_decay: 0.0001
+patch_size: [128, 128, 128]  # Smaller patches for memory
+num_patches: 8  # More patches to compensate
+
+# Loss - Topology-preserving
+loss: topology
+
+# Optimization
+scheduler: cosine
+warmup_epochs: 10  # Longer warmup for transformers
+amp: true
+
+# Misc
+num_workers: 4
+seed: 42
+output_dir: ./outputs
