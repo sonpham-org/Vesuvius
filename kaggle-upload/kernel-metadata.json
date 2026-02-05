@@ -12,11 +12,10 @@
     "vesuvius-challenge-surface-detection"
   ],
   "dataset_sources": [
-    "tonylica/vsdetection-packages-offline-installer-only"
+    "tonylica/vsdetection-packages-offline-installer-only",
+    "sonphamorg/vsd-transunet-weights"
   ],
-  "model_sources": [
-    "ipythonx/vsd-model"
-  ],
+  "model_sources": [],
   "keywords": [
     "vesuvius",
     "surface-detection",
