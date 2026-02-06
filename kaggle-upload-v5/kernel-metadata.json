@@ -1,0 +1,19 @@
+{
+  "id": "sonphamorg/vesuvius-tuned-pp",
+  "title": "vesuvius-tuned-pp",
+  "code_file": "vesuvius-tuned-pp.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "dataset_sources": [
+    "tonylica/vsdetection-packages-offline-installer-only",
+    "sonphamorg/vsd-transunet-weights"
+  ],
+  "model_sources": []
+}
