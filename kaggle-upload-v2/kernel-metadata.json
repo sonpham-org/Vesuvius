@@ -1,0 +1,19 @@
+{
+  "id": "sonphamorg/vesuvius-aggressive-closing",
+  "title": "vesuvius-aggressive-closing",
+  "code_file": "vesuvius-aggressive-closing.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "dataset_sources": [
+    "tonylica/vsdetection-packages-offline-installer-only",
+    "sonphamorg/vsd-transunet-weights"
+  ],
+  "model_sources": []
+}

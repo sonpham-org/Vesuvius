@@ -13,21 +13,6 @@ Topology-aware weighted average of:
 - TopoScore (surface connectivity)
 - VOI (Variation of Information)
 
-## Kaggle API Authentication
-
-The old `~/.kaggle/kaggle.json` with `username`/`key` is **deprecated**. Always use the `KAGGLE_API_TOKEN` environment variable (KGAT token format).
-
-```bash
-# ALWAYS run this before any kaggle CLI command
-source .env && export KAGGLE_API_TOKEN
-
-# Examples
-kaggle competitions download -c vesuvius-challenge-surface-detection
-kaggle kernels push -p kaggle-upload/
-kaggle competitions submit -c vesuvius-challenge-surface-detection -f submission.zip -m "message"
-```
-
-**Important**: Every Bash command that uses `kaggle` must be prefixed with `source /home/son/GitHub/Vesuvius/.env && export KAGGLE_API_TOKEN &&`.
 
 ## Project Structure
 

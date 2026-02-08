@@ -1,0 +1,32 @@
+{
+  "id": "ipythonx/inference-vesuvius-surface-3d-detection",
+  "id_no": 101853474,
+  "title": "[Inference] Vesuvius Surface 3D Detection ",
+  "code_file": "inference-vesuvius-surface-3d-detection.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "ipythonx/vsdetection-packages-offline-installer-only"
+  ],
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "model_sources": [
+    "ipythonx/vsd-model/Keras/transunet/2",
+    "ipythonx/vsd-model/Keras/transunet/3",
+    "ipythonx/vsd-model/Keras/transunetseresnext/2",
+    "ipythonx/vsd-model/Keras/segformer.mit.b2/2",
+    "ipythonx/vsd-model/Keras/default/2",
+    "ipythonx/vsd-model/Keras/segformer.mit.b4/1",
+    "ipythonx/vsd-model/Keras/segformer.mit.b2/1",
+    "ipythonx/vsd-model/Keras/default/1"
+  ],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:bf0b407a5ed73626191ae2259063a0090ae36666c8f00ffdfae3fb543eae750d",
+  "machine_shape": "None"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "sonphamorg/vesuvius-v10-fix-prob-549-recipe",
+  "title": "Vesuvius V10: Fix Prob + 0.549 Recipe",
+  "code_file": "vesuvius-fix-prob-549-recipe.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "ipythonx/vsdetection-packages-offline-installer-only"
+  ],
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "model_sources": [
+    "ipythonx/vsd-model/Keras/transunet/3"
+  ]
+}

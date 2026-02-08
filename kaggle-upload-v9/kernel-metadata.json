@@ -1,0 +1,40 @@
+{
+  "id": "choudharymanas/inference-baseline-transunet-lb-0-537",
+  "id_no": 104014214,
+  "title": "[Inference] Baseline TransUNet   [LB 0.537]",
+  "code_file": "inference-baseline-transunet-lb-0-537.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    ""
+  ],
+  "kernel_sources": [
+    "ipythonx/vsdetection-packages-offline-installer-only",
+    "choudharymanas/train-transunet-baseline-lb-0-537",
+    "packagemanager/pm-104014214-at-12-31-2025-18-58-16"
+  ],
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "model_sources": [
+    "",
+    "",
+    "ipythonx/vsd-model/Keras/transunetseresnext/2",
+    "ipythonx/vsd-model/Keras/transunetseresnext/1",
+    "ipythonx/vsd-model/Keras/default/1",
+    "ipythonx/vsd-model/Keras/segformer.mit.b4/1",
+    "ipythonx/vsd-model/Keras/segformer.mit.b2/2",
+    "ipythonx/vsd-model/Keras/default/2",
+    "ipythonx/vsd-model/Keras/segformer.mit.b2/1",
+    "ipythonx/vsd-model/Keras/transunet/2"
+  ],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:7a9d2a6b13b3566aa6cc5a22447f3b3f99acf55dce44408deb90584b6d4b0dde",
+  "machine_shape": "Gpu"
+}

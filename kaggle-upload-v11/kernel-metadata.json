@@ -1,0 +1,22 @@
+{
+  "id": "sonphamorg/vesuvius-v11-549-recipe-holefill",
+  "title": "Vesuvius V11: 0.549 Recipe + Hole Fill",
+  "code_file": "vesuvius-fix-prob-549-holefill.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [],
+  "kernel_sources": [
+    "ipythonx/vsdetection-packages-offline-installer-only"
+  ],
+  "competition_sources": [
+    "vesuvius-challenge-surface-detection"
+  ],
+  "model_sources": [
+    "ipythonx/vsd-model/Keras/transunet/3"
+  ]
+}
